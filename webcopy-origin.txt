@@ -1,0 +1,84 @@
+Uri: https://s3.ap-south-1.amazonaws.com/picsyinlive/images/shared/1579953226781/1.jpg?1655870819771
+File Name: C:\DownloadedWebSites\www.picsy.in\picsyinlive\images\shared\1579953226781\1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-3272892-33
+File Name: C:\DownloadedWebSites\www.picsy.in\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.picsy.in/shared/assets/css/font-awesome.css
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\css\font-awesome.css
+Content Type: text/css
+
+Uri: https://www.picsy.in/shared/assets/css/style.css
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\css\style.css
+Content Type: text/css
+
+Uri: https://www.picsy.in/shared/assets/fonts/fontawesome-webfont.ttf?v=4.6.3
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\fontawesome-webfont.ttf
+Content Type: application/font-sfnt
+
+Uri: https://www.picsy.in/shared/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\fontawesome-webfont.woff2
+Content Type: 
+
+Uri: https://www.picsy.in/shared/assets/fonts/fontawesome-webfont.woff?v=4.6.3
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.picsy.in/shared/assets/fonts/oxygen-bold-webfont.ttf
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\oxygen-bold-webfont.ttf
+Content Type: application/font-sfnt
+
+Uri: https://www.picsy.in/shared/assets/fonts/oxygen-bold-webfont.woff2
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\oxygen-bold-webfont.woff2
+Content Type: 
+
+Uri: https://www.picsy.in/shared/assets/fonts/oxygen-regular-webfont.ttf
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\oxygen-regular-webfont.ttf
+Content Type: application/font-sfnt
+
+Uri: https://www.picsy.in/shared/assets/fonts/oxygen-regular-webfont.woff2
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\fonts\oxygen-regular-webfont.woff2
+Content Type: 
+
+Uri: https://www.picsy.in/shared/assets/images/play-icon.svg
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\play-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.picsy.in/shared/assets/images/preview-android.png
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\preview-android.png
+Content Type: image/png
+
+Uri: https://www.picsy.in/shared/assets/images/preview-apple.png
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\preview-apple.png
+Content Type: image/png
+
+Uri: https://www.picsy.in/shared/assets/images/previewAndroidStore.png
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\previewAndroidStore.png
+Content Type: image/png
+
+Uri: https://www.picsy.in/shared/assets/images/previewbook-logo.png
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\previewbook-logo.png
+Content Type: image/png
+
+Uri: https://www.picsy.in/shared/assets/images/previewIphoneStore.png
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\previewIphoneStore.png
+Content Type: image/png
+
+Uri: https://www.picsy.in/shared/assets/images/rotate-mobile.gif
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\images\rotate-mobile.gif
+Content Type: image/gif
+
+Uri: https://www.picsy.in/shared/assets/js/flipbook.min.js
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\js\flipbook.min.js
+Content Type: application/javascript
+
+Uri: https://www.picsy.in/shared/assets/js/vue.js
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\assets\js\vue.js
+Content Type: application/javascript
+
+Uri: https://www.picsy.in/shared/photo-book-1579953226781.html
+File Name: C:\DownloadedWebSites\www.picsy.in\shared\photo-book-1579953226781.html
+Content Type: text/html
+

@@ -1,0 +1,193 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <title>Photo book - Love Proposal by Imran Khan</title>
+
+        <meta name="description" content="Your friend Imran Khan has shared a Love Proposal photo book with you, have a look.">
+        <meta property="og:title" content="Love Proposal Photo book by Imran Khan | Personalized Photo books & Photo Albums - Picsy">
+        <meta property="og:description" content="Your friend Imran Khan has shared a Love Proposal photo book with you, have a look.">
+        <meta property="og:url" content="https://www.picsy.in/shared/photo-book-1579953226781.html">
+        <meta property="og:image" content="https://s3.ap-south-1.amazonaws.com/picsyinlive/images/shared/1579953226781/preview.jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+
+        <!--TWITTER -->
+        <meta property="twitter:image" content="https://s3.ap-south-1.amazonaws.com/picsyinlive/images/shared/1579953226781/preview.jpg">
+        <meta property="twitter:title" content="Love Proposal Photo book by Imran Khan | Personalized Photo books & Photo Albums - Picsy">
+        <meta property="twitter:description" content="Your friend Imran Khan has shared a Love Proposal photo book with you, have a look.">
+        <meta name="twitter:creator" content="@picsy">
+        <meta name="twitter:site" content="@picsy">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+    </head>
+
+<body>
+    <!--Divyesh Virdiya static HTML-->
+    <div class="previewBookPage">
+        <div class="container">
+
+            <!--header start here-->
+            <div class="row headerOfpreviewbook ">
+               
+            </div>
+            <div class="page-main-preview">
+                                    <div id="intro">
+                        <template v-if="pages.length > 1">
+                            <flipbook class="flipbook" :pages="pages" :zooms="[1]" ref="flipbook" v-slot="flipbook" @flip-left-end="onFlipLeftEnd" @flip-right-end="onFlipRightEnd" @flip-right-start="onFlipRightStart" @flip-left-start="onFlipLeftStart">
+                            </flipbook>
+                        </template>
+
+                        <div class="flipbookThumbforMobile" v-on:click="addRotatePhoneClass" :class="{'rotateGif': isRotateGif}">
+                            <img src="../picsyinlive/images/shared/1579953226781/1.jpg?1655870819771">
+                        </div>
+
+                        <div class="action-bar">
+                            <i class="fa fa-arrow-circle-left" @click="turnleft" v-if="pages.length >1"></i>
+                            <span class="page-num" v-if="pages.length >1">{{pageString}}</span>
+                            <i class="fa fa-arrow-circle-right" @click="turnright" v-if="pages.length >1"></i>
+                        </div>
+
+                        <!--album detail text-->
+                        <div class="row">
+                            <div class="senderAndReceiverNameLine">
+                                                                    <p id="albumdetailtext" v-if="pages.length > 1" class="addressofAlbumandSendeReceiver"><span class="oxygenbold pinktext">{{ productname }}</span> - <span class="oxygenbold darkBlack">{{ designName }}</span> by <span class="oxygenbold darkBlack">{{ username }}</span>  using  <a v-bind:href="''+themeurl+''" class="oxygenregular pinktext pinkunderline">{{ themename  }}</a></p>
+                                                            </div>
+                        </div>
+                        <!--album detail text-->
+
+                        <!--rotate phone text and button-->
+                        <div class="row" ref="porto">
+                            <div class="forpreviewbookAPP text-center">
+                                <p><strong class="pinktext">Note:</strong> Please rotate your device and enjoy the full preview of Photobook</p>
+                            </div>
+                        </div>
+                        <!--rotate phone text and button-->
+                    </div>
+                            </div>
+        </div>
+        <!--Divyesh Virdiya static HTML-->
+
+        <script src="assets/js/vue.js"></script>
+        <script src="assets/js/flipbook.min.js"></script>
+        <script type="text/javascript">
+                            var images = JSON.parse('[null,"https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/1.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/blank_photobook.jpg","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/2.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/3.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/4.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/5.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/6.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/7.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/8.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/9.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/10.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/11.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/12.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/13.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/14.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/15.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/16.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/17.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/18.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/19.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/20.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/21.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/22.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/23.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/24.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/25.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/26.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/27.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/28.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/29.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/30.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/31.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/32.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/33.jpg?1655870819771","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/blank_photobook.jpg","https:\/\/s3.ap-south-1.amazonaws.com\/picsyinlive\/images\/shared\/1579953226781\/34.jpg?1655870819771"]');
+                        var url = 'assets/images/photobook/';
+                            var flipbook = new Vue({
+                    el: '#intro',
+                    data: {
+                        hasMouse: true,
+                        pageNum: null,
+                        pages: images,
+                        username: "Imran Khan",
+                        productname: "Photo Book",
+                        themename: "Love Proposal",
+                        themeurl: "",
+                        designName: "Love Proposal",
+                        currentPage: null,
+                        totalPage: null,
+                        visible: true,
+                        pageString: null,
+                        isRotateGif: false,
+                    },
+                    methods: {
+                        addRotatePhoneClass: function(event) {
+                            this.isRotateGif = true;
+                            setTimeout(() => this.isRotateGif = false, 5000);
+                        },
+                        turnleft: function(page) {
+                            this.$refs.flipbook.flipLeft();
+                        },
+                        turnright: function(page) {
+                            this.$refs.flipbook.flipRight();
+                        },
+                        onFlipLeftEnd: function(page) {
+                            this.findpageNavigationstring(page);
+                        },
+                        onFlipRightEnd: function(page) {
+                            this.findpageNavigationstring(page);
+                        },
+                        onFlipRightStart: function(page) {
+                            /*var elmnt = document.getElementById("albumdetailtext");
+                            elmnt.scrollIntoView({
+                                behavior: "smooth"
+                            });*/
+                        },
+                        onFlipLeftStart: function(page) {
+                            
+                        },
+                        findpageNavigationstring: function(page) {
+                            var totalPages = this.$refs.flipbook.numPages
+                            var actualPages = totalPages - 4
+                            if (page == 1) {
+                                this.pageString = 'Front Cover'
+                            } else if (page == 2) {
+                                this.pageString = 'Page 1 of ' + (actualPages)
+                            } else if (totalPages == page) {
+                                this.pageString = 'Back Cover'
+                            } else if ((totalPages - page) == 2) {
+                                this.pageString = 'Page ' + (page - 2) + ' of ' + (actualPages)
+                            } else {
+                                this.pageString = 'Page ' + (page - 2) + ' of ' + (actualPages)
+                            }
+                            this.currentPage = page
+                        },
+                        /*scrollToEnd: function() {
+                            var container = this.$el.querySelector("#albumdetailtext");
+                            container.scrollTop = container.scrollHeight + 120;
+                        },*/
+                        handleOrientationChange() {
+                            const orientation = window.screen.orientation.type
+                            if (orientation === "portrait-primary") {
+                                console.log('portrait');
+                            } else if (orientation === "landscape-primary") {
+                                console.log('landscape');
+                                setTimeout(function() {
+                                    var elmnt = document.getElementById("albumdetailtext");
+                                    elmnt.scrollIntoView({
+                                        behavior: "smooth"
+                                    });
+                                }, 200);
+                            }
+                        }
+                    },
+                    mounted() {
+                        /* window.addEventListener("load",function() {
+                             setTimeout(function() {
+                                 window.scrollTo(0,1);    
+                             }, 1000);
+                         });*/
+                        var flipbook = this.$refs.flipbook;
+                        window.addEventListener("keydown", function(e) {
+                            if (e.keyCode == 37 && flipbook.canFlipLeft) flipbook.flipLeft()
+                            if (e.keyCode == 39 && flipbook.canFlipRight) flipbook.flipRight()
+                        });
+                        this.currentPage = flipbook.page
+                        var totalPages = flipbook.numPages
+                        this.totalPage = totalPages - 2
+                        this.findpageNavigationstring(flipbook.page)
+                        /*window.addEventListener(
+                            "orientationchange",
+                            this.handleOrientationChange
+                        );*/
+                    }
+                });
+                    </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="../gtag/js?id=UA-3272892-33"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-3272892-33');
+        </script>
+</div></body>
+
+</html>
